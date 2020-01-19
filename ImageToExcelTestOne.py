@@ -4,7 +4,7 @@ import pytesseract
 import time
 import math
 
-original = cv2.imread('C:/Users/wruet/Pictures/testQB.png')
+original = cv2.imread('C:/Users/user/Pictures/imgLocation.png')#replace with path to image
 
 height = original.shape[0]
 column = 1

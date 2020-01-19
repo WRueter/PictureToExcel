@@ -5,3 +5,4 @@ Converts a picture to an Excel Spreadsheet
 - Add to path, which can be found by going to settings and searching for 'system environment variables' -> environment variables
 - Run, adjust pixel values as needed
 - Dependencies: OpenCV, openpyxl, pytesseract
+- Goals: Add GUI, Grid option

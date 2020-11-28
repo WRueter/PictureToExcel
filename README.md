@@ -5,4 +5,4 @@ Converts a picture to an Excel Spreadsheet
 - Add to path, which can be found by going to settings and searching for 'system environment variables' -> environment variables
 - Run, adjust grid to image.
 - Dependencies: pygame, OpenCV, openpyxl, pytesseract, python 3.6.7
-- Goals: Auto-Gridding
+- Goals: Auto-Gridding, better GUI

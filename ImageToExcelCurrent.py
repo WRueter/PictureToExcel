@@ -27,8 +27,8 @@ for i in listItems:
     sheet = workbook.active
 
     win = pygame.display.set_mode((850, 1000))
-    background = pygame.image.load('C:/Users/wruet/Documents/GitHub/ImgExcel/Quiz-Bowl-Data-master/Quiz-Bowl-Data-master/'+name+'/'+name+str(i)+'.png')
-    original = cv2.imread('C:/Users/wruet/Documents/GitHub/ImgExcel/Quiz-Bowl-Data-master/Quiz-Bowl-Data-master/'+name+'/'+name+str(i)+'.png')
+    background = pygame.image.load('C:/Users/username/imgfolder'+name+'/'+name+str(i)+'.png') #replace path with path to folder image is located in
+    original = cv2.imread('C:/Users/username/imgfolder'+name+'/'+name+str(i)+'.png') #replace path with folder image is located in
     origDim = (background.get_width(), background.get_height())
     print(origDim)
     bg = pygame.transform.scale(background, (win.get_width(), win.get_height()))
